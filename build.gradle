@@ -1,16 +1,4 @@
+
 plugins {
-    id 'com.android.application'
-}
-
-android {
-    namespace 'demo.wallet'
-    compileSdk 35
-
-    defaultConfig {
-        applicationId 'demo.wallet'
-        minSdk 23
-        targetSdk 28
-        versionCode 1
-        versionName '1.0'
-    }
+    id 'com.android.application' version '8.9.2' apply false
 }
